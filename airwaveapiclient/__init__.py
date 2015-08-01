@@ -6,10 +6,10 @@ import sys
 
 # pylint: disable=unused-import,import-error,relative-import
 if sys.version_info.major == 2:
-    from airwaveapiclient import AirWaveAPIClient
-    from airwaveapiclient import APList
-    from airwaveapiclient import APDetail
-    from ap_graph import APGraph
+    from .airwaveapiclient import AirWaveAPIClient
+    from .airwaveapiclient import APList
+    from .airwaveapiclient import APDetail
+    from .ap_graph import APGraph
 
 else:
     from airwaveapiclient.airwaveapiclient import AirWaveAPIClient
